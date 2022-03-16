@@ -1,0 +1,12 @@
+body{
+    background-color: lightgrey;
+    width: fit-content;
+}
+header{
+    background-color: darkturquoise;
+    height: 250px;
+}
+h1{
+    color: darkslategrey;
+    font-size: large;
+}
