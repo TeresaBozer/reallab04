@@ -14,7 +14,7 @@ console.log('app.js is connected.');
 // var craig = 'craig';
 // console.log(craig);
               //  prompt is a method that opens the prompt window with an input box for the user name
-let userName = prompt('What is your name?');
+let userName = prompt('¿Cómo te llamas?');
 
 // console.log(userName);
 //alert is another method.
