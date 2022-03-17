@@ -5,8 +5,13 @@ body{
 header{
     background-color: darkturquoise;
     height: 250px;
+    width: auto;
 }
 h1{
     color: darkslategrey;
     font-size: large;
+}
+img{
+    border-radius: 50%;
+    object-position: right top;    
 }
