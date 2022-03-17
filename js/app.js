@@ -14,11 +14,32 @@ console.log('app.js is connected.');
 // var craig = 'craig';
 // console.log(craig);
               //  prompt is a method that opens the prompt window with an input box for the user name
+
+// question
+
 let userName = prompt('¿Cómo te llamas?');
 
+alert('¡Hola, ' + userName + ' !');
+
 // console.log(userName);
+
+//gender
+
+let title = prompt(¿Cuál es tu título?)
+
+// console.log(title);
+
+if(title = Señor){
+    message = '¡Bienvenido!';
+  } else if(title = Señora){
+    message = '¡Bienvenida!';
+  } else if (title = Señorita){
+    message = '¡Bienvenida!';
+  } else {
+    message = 'Tienes que eligir entre Señor, Señora, Señorita.';
+  } 
 //alert is another method.
-alert('Hello ' + userName);
+
 
 
 //ask what time is it? 
