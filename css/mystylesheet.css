@@ -13,5 +13,7 @@ h1{
 }
 img{
     border-radius: 50%;
-    object-position: right top;    
+    position: absolute;
+    top: 0px;
+    right: 0px; 
 }
