@@ -20,12 +20,12 @@ console.log('app.js is connected.');
 
 function userName(){
     let userName = prompt('¿Cómo te llamas?');
-    //console.log (userName);
+    alert('¡Hola, ' + userName + ' !');
     return document.write(userName);
 }
 
 
-alert('¡Hola, ' + userName + ' !');
+
 
 // console.log(userName);
 
