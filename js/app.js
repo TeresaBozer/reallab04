@@ -4,8 +4,6 @@ console.log('app.js is connected.');
 
 
 function userName(){
-    let message;
-    let title;
     let userName = prompt('¿Cómo te llamas?');
     alert('¡Hola, ' + userName + ' !');
     return document.write(userName);
@@ -19,7 +17,7 @@ function userName(){
 
 // console.log(title);
 
-function titleQ(){
+function secondQuestion(){
     let title;
     let message;
 
@@ -31,7 +29,7 @@ if(title == 'Señor' || title == 'Sr.'){
     message = '¡Bienvenida!';
   } else {
     message = 'Tienes que eligir entre Señor, Señora, Señorita.';
- document.write('¡Hola ' + title +  '! '   + message);
+    return document.write('¡Hola ' + title +  '! '   + message);
  } 
 }
 
@@ -62,7 +60,7 @@ function guessANumber(){
        alert('you are correct!');
      }
   
-   } while(answer != 7)
+   } while(answer != 7);
   }
   
   
@@ -79,5 +77,5 @@ function guessANumber(){
   
   
   //invoke or call a function 
-  guessANumber();
+  //guessANumber();
   
