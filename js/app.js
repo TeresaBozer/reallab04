@@ -28,10 +28,10 @@ if(title == 'Señor' || title == 'Sr.'){
   } else if(title == 'Señora' || title == 'Sra.' || title == 'Señorita' || title == 'Srta.'){
     message = '¡Bienvenida!';
   } else {
-    message = 'Tienes que eligir entre Señor, Señora, Señorita.';
-    return document.write('¡Hola ' + title +  '! '   + message);
- } 
-}
+    message = 'Tienes que eligir entre Señor, Señora, Señorita.'; 
+ } //closes if
+ return document.write('¡Hola ' + title +  '! '   + message);
+}//function
 
 //lab 07
 
